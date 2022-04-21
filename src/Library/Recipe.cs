@@ -25,7 +25,8 @@ namespace Full_GRASP_And_SOLID.Library
             this.steps.Remove(step);
         }
 
-        //Recipe se encarga de calcular el costo total en base a los costos de cada Step. Expert.
+        //Recipe se encarga de calcular el costo total en base a los costos de cada Step puesto que conoce que steps hay en cada recipe.
+        //Expert.
         public double GetProductionCost
         {
             get

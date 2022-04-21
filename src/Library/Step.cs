@@ -25,7 +25,7 @@ namespace Full_GRASP_And_SOLID.Library
 
         public Equipment Equipment { get; set; }
         
-         //Step se encarga solo de calcular el costo de cada paso por patron Expert.
+         //Step se encarga de calcular el costo de cada paso por patron Expert puesto que tiene toda la informacion de los mismos.
         public double StepCost
         {
             get
